@@ -11,6 +11,9 @@
 		858175D82BA9E7FE001316D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858175D72BA9E7FE001316D2 /* ContentView.swift */; };
 		858175DA2BA9E800001316D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 858175D92BA9E800001316D2 /* Assets.xcassets */; };
 		858175DE2BA9E800001316D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 858175DD2BA9E800001316D2 /* Preview Assets.xcassets */; };
+		858175E52BA9E82D001316D2 /* CityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858175E42BA9E82D001316D2 /* CityListView.swift */; };
+		858175E72BA9E852001316D2 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858175E62BA9E852001316D2 /* City.swift */; };
+		858175E92BA9E8A3001316D2 /* CityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858175E82BA9E8A3001316D2 /* CityDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		858175D92BA9E800001316D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		858175DB2BA9E800001316D2 /* Cities.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cities.entitlements; sourceTree = "<group>"; };
 		858175DD2BA9E800001316D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		858175E42BA9E82D001316D2 /* CityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListView.swift; sourceTree = "<group>"; };
+		858175E62BA9E852001316D2 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		858175E82BA9E8A3001316D2 /* CityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				858175D92BA9E800001316D2 /* Assets.xcassets */,
 				858175DB2BA9E800001316D2 /* Cities.entitlements */,
 				858175DC2BA9E800001316D2 /* Preview Content */,
+				858175E42BA9E82D001316D2 /* CityListView.swift */,
+				858175E62BA9E852001316D2 /* City.swift */,
+				858175E82BA9E8A3001316D2 /* CityDetailView.swift */,
 			);
 			path = Cities;
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				858175E52BA9E82D001316D2 /* CityListView.swift in Sources */,
 				858175D82BA9E7FE001316D2 /* ContentView.swift in Sources */,
+				858175E72BA9E852001316D2 /* City.swift in Sources */,
 				858175D62BA9E7FE001316D2 /* CitiesApp.swift in Sources */,
+				858175E92BA9E8A3001316D2 /* CityDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
